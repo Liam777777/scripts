@@ -10,4 +10,5 @@ FILE=`echo $ANS | sed s#/#-#g`
 DATE=`date +%F`
 tar -zcvf ~/backup-$FILE-$DATE.tar.gz $ANS
 
-echo "Backup completed successfully to ~/backup-$FILE-$DATE.tar.gz" 
+echo "Backup completed successfully to ~/backup-$FILE-$DATE.tar.gz"
+echo "All done" 
